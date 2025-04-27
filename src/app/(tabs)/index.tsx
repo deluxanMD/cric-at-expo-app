@@ -1,24 +1,22 @@
 import { Text, View } from 'react-native'
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 
 import Header from '@components/header'
-import { listLiveMatches } from 'src/api/matches/matches.api'
-import { MatchesResponse } from 'src/api/matches/matches.api.types'
+import { useMatchesStore } from '@store/matches/matches.store'
+import { listMatchTypesWithCount } from '@utils/matches.utils'
+import MatchesTabs from '@components/matches-tabs'
 
 const Home = () => {
-  const [liveMatches, setLiveMatches] = useState<MatchesResponse>()
-  const [error, setError] = useState<boolean>()
+  const { liveMatches, liveMatchesLoading, setLiveMatches } = useMatchesStore()
 
   useEffect(() => {
-    listLiveMatches()
-      .then((data) => setLiveMatches(data))
-      .catch((_error) => setError(true))
+    setLiveMatches()
   }, [])
 
   return (
     <View>
       <Header title="cricat" showNotifications showSettings>
-        <Text>tabs comes here</Text>
+        <MatchesTabs matches={liveMatches} loading={liveMatchesLoading} />
       </Header>
       <Text>Home</Text>
     </View>

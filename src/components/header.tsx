@@ -18,7 +18,7 @@ const Header = ({
   children,
 }: Props) => {
   return (
-    <View className="min-h-36 px-4 bg-primary justify-end">
+    <View className="min-h-40 px-4 bg-primary justify-end">
       <View className="flex-row justify-between">
         <MonospacedText bold white>
           {title}

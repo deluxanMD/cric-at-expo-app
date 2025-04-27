@@ -1,4 +1,4 @@
-import { Theme } from '../types/globals'
+import { Theme } from '../custom-types/globals'
 
 export const LightTheme: Theme = {
   primary: '#0098db',

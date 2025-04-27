@@ -1,14 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1745683201659" clover="3.2.0">
-  <project timestamp="1745683201659" name="All files">
-    <metrics statements="17" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5" elements="22" coveredelements="22" complexity="0" loc="17" ncloc="17" packages="2" files="6" classes="6"/>
-    <package name="app.(tabs)">
-      <metrics statements="15" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
-      <file name="index.tsx" path="/Users/deluxan.mariathasan/Documents/Projects/cric-at/src/app/(tabs)/index.tsx">
-        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="4" count="1" type="stmt"/>
+<coverage generated="1745736612067" clover="3.2.0">
+  <project timestamp="1745736612067" name="All files">
+    <metrics statements="67" coveredstatements="44" conditionals="30" coveredconditionals="11" methods="22" coveredmethods="13" elements="119" coveredelements="68" complexity="0" loc="67" ncloc="67" packages="7" files="19" classes="19"/>
+    <package name="cric-at">
+      <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="metro.config.js" path="/Users/deluxan.mariathasan/Documents/Projects/cric-at/metro.config.js">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+      </file>
+      <file name="nativewind-env.d.ts" path="/Users/deluxan.mariathasan/Documents/Projects/cric-at/nativewind-env.d.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="tailwind.config.js" path="/Users/deluxan.mariathasan/Documents/Projects/cric-at/tailwind.config.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="2" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="cric-at.src.api.matches">
+      <metrics statements="8" coveredstatements="4" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="matches.api.ts" path="/Users/deluxan.mariathasan/Documents/Projects/cric-at/src/api/matches/matches.api.ts">
+        <metrics statements="8" coveredstatements="4" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="5" count="1" type="stmt"/>
-        <line num="14" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="12" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+      </file>
+      <file name="matches.api.types.ts" path="/Users/deluxan.mariathasan/Documents/Projects/cric-at/src/api/matches/matches.api.types.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="cric-at.src.app.(tabs)">
+      <metrics statements="18" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="5"/>
+      <file name="index.tsx" path="/Users/deluxan.mariathasan/Documents/Projects/cric-at/src/app/(tabs)/index.tsx">
+        <metrics statements="6" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
       </file>
       <file name="live.tsx" path="/Users/deluxan.mariathasan/Documents/Projects/cric-at/src/app/(tabs)/live.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
@@ -35,8 +72,75 @@
         <line num="14" count="1" type="stmt"/>
       </file>
     </package>
-    <package name="utils">
-      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+    <package name="cric-at.src.components">
+      <metrics statements="13" coveredstatements="12" conditionals="14" coveredconditionals="7" methods="6" coveredmethods="5"/>
+      <file name="header.tsx" path="/Users/deluxan.mariathasan/Documents/Projects/cric-at/src/components/header.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+      </file>
+      <file name="matches-tabs.tsx" path="/Users/deluxan.mariathasan/Documents/Projects/cric-at/src/components/matches-tabs.tsx">
+        <metrics statements="6" coveredstatements="5" conditionals="4" coveredconditionals="1" methods="4" coveredmethods="3"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+      </file>
+      <file name="monospaced-text.tsx" path="/Users/deluxan.mariathasan/Documents/Projects/cric-at/src/components/monospaced-text.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="6" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="18" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="19" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="21" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="cric-at.src.custom-types">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="globals.ts" path="/Users/deluxan.mariathasan/Documents/Projects/cric-at/src/custom-types/globals.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="utils.ts" path="/Users/deluxan.mariathasan/Documents/Projects/cric-at/src/custom-types/utils.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="cric-at.src.store.matches">
+      <metrics statements="4" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="4" coveredmethods="1"/>
+      <file name="matches.store.ts" path="/Users/deluxan.mariathasan/Documents/Projects/cric-at/src/store/matches/matches.store.ts">
+        <metrics statements="4" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="4" coveredmethods="1"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="11" count="0" type="stmt"/>
+      </file>
+      <file name="matches.store.types.ts" path="/Users/deluxan.mariathasan/Documents/Projects/cric-at/src/store/matches/matches.store.types.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="cric-at.src.utils">
+      <metrics statements="19" coveredstatements="10" conditionals="12" coveredconditionals="4" methods="5" coveredmethods="2"/>
+      <file name="matches.utils.ts" path="/Users/deluxan.mariathasan/Documents/Projects/cric-at/src/utils/matches.utils.ts">
+        <metrics statements="17" coveredstatements="8" conditionals="12" coveredconditionals="4" methods="5" coveredmethods="2"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="7" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="25" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="33" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="38" count="2" type="stmt"/>
+        <line num="42" count="10" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="52" count="2" type="stmt"/>
+      </file>
       <file name="theme.ts" path="/Users/deluxan.mariathasan/Documents/Projects/cric-at/src/utils/theme.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="3" count="1" type="stmt"/>
