@@ -1,4 +1,4 @@
-type MatchType = 'International' | 'League' | 'Domestic' | 'Women'
+export type MatchType = 'International' | 'League' | 'Domestic' | 'Women'
 
 type MatchFormat = 'TEST' | 'ODI' | 'T20'
 
